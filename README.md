@@ -14,4 +14,4 @@ Open cmd, and type this command(Windows):
 - `<executable.exe>` is the single-input program executable the files that match `<name>.<extension>`.
 
 Example command: `dir *.bin /b | batcher.exe cutter.exe`  
-This command executes cutter.exe for all *.bin files in target folder.  
+This command executes cutter.exe for all files matching *.bin in target folder.  
